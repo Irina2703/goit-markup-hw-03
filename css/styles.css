@@ -25,6 +25,7 @@ button{
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 .header { 
     width: 1158px;
