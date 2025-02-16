@@ -1,0 +1,236 @@
+
+body{
+    font-family: "Roboto",
+    sans-serif;background: #fff;color: #434455;}
+
+a{
+    text-decoration: none; 
+}
+ul,ol{
+    list-style-type: none ;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p
+{ margin: 0;
+
+}
+
+button{
+    cursor: pointer;
+    font-family:"Roboto", sans-serif;
+} 
+.container{
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header { border-bottom: 1px solid #e7e9fc;}
+.header-container
+{
+display: flex;
+align-items: center;
+}
+.nav-header { 
+    display: flex;
+    align-items: center;}
+
+
+    .header-logo{
+        padding:24px 0 ;
+    margin-right:76px ;}
+    
+
+
+    .logo{font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;}
+
+.logo-style { font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;}
+
+.header-nav-list{display: flex;
+    align-items: center;
+gap: 40px;}
+
+.header-nav-list
+{
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;}
+
+.header-nav-item {}
+
+.item-nav-link {
+    display: block;
+    padding: 24px 0 ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;}
+.item-nav-link:hover,
+.item-nav-link:focus {
+    color:#404bbf;}
+
+.contact-info {
+    font-style: normal;
+    margin-left: auto;
+}
+.contact-list{display: flex;
+    align-items: center;
+    gap: 40px;}
+
+
+.contact {
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contact:hover,
+.contact:focus{
+    color: #404bbf;
+    }
+
+
+    .hero {line-height: 1.07;
+    background-color: #2e2f42;}
+    
+    .hero-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;}
+    
+    .button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+background-color: #4d5ae5;}
+.button:hover,
+.button:focus{background-color: #404bbf}
+
+
+
+.footer {
+background: #2e2f42;}
+.footer {background: #2e2f42;}
+.footer-name {font-family: "Raleway", sans-serif;
+font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;}
+
+.studio {font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;}
+
+.footer-text {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;}
+
+
+
+
+.benefits-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;}
+
+.benefits-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;}
+{}
+
+.portfolio-title{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        text-transform: capitalize;}
+ 
+ .portfolio-h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;}
+
+ .portfolio-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+ /*  our team */
+.team-name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;}
+.team-color{ 
+    background-color: #f4f4fd;}
+
+ .team {background-color: #ffffff;
+    
+
+    text-align: center;
+    
+    margin: 15px;}
+
+ .our-team-h{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+ }
+ .our-team-p{
+font-family: "Roboto",
+        sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+ }
