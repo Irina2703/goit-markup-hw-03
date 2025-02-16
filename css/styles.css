@@ -25,7 +25,9 @@ button{
     padding: 0 15px;
     margin: 0 auto;
 }
-.header { border-bottom: 1px solid #e7e9fc;}
+.header { 
+    width: 1158px;
+    border-bottom: 1px solid #e7e9fc;}
 .header-container
 {
 display: flex;
@@ -117,28 +119,46 @@ width: 1440px;
 height: 600px;
 padding-top: 118px;
 padding-right: 472px;
-padding-left: 472px;}
+padding-left: 472px;
+box-sizing: border-box;
+}
     
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
     .hero-title {
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
-color: #fff;}
+color: #fff;
+max-width: 496px;
+margin: 0 auto;
+}
     
     .button {
 border-radius: 4px;
-padding: 16px 32px;
-box-shadow: 0 4px 4px 0 #rgba(0, 0, 0, 0.15);
-display: block;
-margin: 48px auto 0;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #fff;
-background-color: #4d5ae5;}
+    padding: 16px 32px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    display: block;
+    margin: 48px auto 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4d5ae5;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+   
+}
 .button:hover,
 .button:focus{background-color: #404bbf}
 
