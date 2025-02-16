@@ -27,13 +27,14 @@ button{
     margin: 0 auto;
 }
 .header { 
-    padding: 0 15px;
-    width: 1158px;
+    
     border-bottom: 1px solid #e7e9fc;}
 .header-container
 {
 display: flex;
 align-items: center;
+width: 1158px;
+padding: 0 15px;
 }
 .nav-header { 
     display: flex;
