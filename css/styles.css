@@ -27,6 +27,7 @@ button{
     margin: 0 auto;
 }
 .header { 
+    padding: 0 15px;
     width: 1158px;
     border-bottom: 1px solid #e7e9fc;}
 .header-container
@@ -124,6 +125,7 @@ padding-left: 472px;
 box-sizing: border-box;
 }
     
+.box {padding: 120px 0}
 .container {
     width: 100%;
     max-width: 1440px;
@@ -166,7 +168,17 @@ border-radius: 4px;
 .benefits-item {
     width: calc((100%-72px) / 4);
 }
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+    overflow: hidden;
+}
 
 
 
@@ -179,6 +191,7 @@ border-radius: 4px;
     gap: 24px;
 }
 .benefits-name {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
