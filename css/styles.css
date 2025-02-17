@@ -226,8 +226,7 @@ margin: 0 auto;
         background-color: #f4f4fd;}
     .team {
         background-color: #ffffff;
-        text-align: center;
-        margin: 15px;
+        
         width: calc((100% - 72px) / 4);
         border-radius: 0px 0px 4px 4px;}
     
