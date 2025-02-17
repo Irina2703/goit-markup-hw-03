@@ -194,6 +194,7 @@ margin: 0 auto;
     width: 1128px;
     height: 104px;
     gap: 24px;
+    margin: 0 auto;
 }
 .benefits-name {
     margin-bottom: 8px;
@@ -223,7 +224,7 @@ margin: 0 auto;
     .team-color{ 
         padding: 120px 0;
         background-color: #f4f4fd;}
-        width:calc((100% - 72px) / 4);
+        width:calc((100% - 72px) / 4) ;
     .team {
         background-color: #ffffff;
         text-align: center;
@@ -265,14 +266,12 @@ margin: 0 auto;
         padding: 0;
         margin: 0;}
 .portfolio-item {
-        width: calc((100%-57px) / 4);
+        width: calc((100%-72px) / 3);
         border-radius: 0px 0px 4px 4px;
         
     }
-        .item:nth-last-child(-n+3) {
-            margin-bottom: 0;
-            /* обнулення відступу для останніх трьох елементів */
-        }
+
+    
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -286,7 +285,8 @@ margin: 0 auto;
 .portfolio-ul{
     display: flex;
     flex-wrap: wrap;
-    gap: 48px 0;
+    gap: 48px 24px;
+    
     
 
 }
@@ -301,6 +301,7 @@ margin: 0 auto;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    
 }
 
 .portfolio-content h3 {
