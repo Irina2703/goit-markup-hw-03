@@ -21,23 +21,20 @@ button{
     cursor: pointer;
     font-family:"Roboto", sans-serif;
 }
-
+.header-container{
+    display: flex;
+    align-items: center;
+}
 .container{
     width: 1158px;
-    padding: 0 15px;
     margin: 0 auto;
-    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .header { 
     width: 1158px;
     border-bottom: 1px solid #e7e9fc;}
-.header-container
-{
-display: flex;
-align-items: center;
-width: 1158px;
-padding: 0 15px;
-}
+
 .nav-header { 
     display: flex;
     align-items: center;}
@@ -93,16 +90,17 @@ padding: 0 15px;
     color:#404bbf;}
 
 .contact-info {
-    font-style: normal;
     margin-left: auto;
+    font-style: normal;
+   
 }
 .contact-list{
     display: flex;
-    align-items: center;
+    
     gap: 40px;}
 
 
-.contact {
+.contact {align-items: center;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -112,6 +110,7 @@ padding: 0 15px;
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
+    font-style: normal;
 }
 
 .contact:hover,
@@ -121,14 +120,9 @@ padding: 0 15px;
 
 
     .hero {
-padding: 188px 0;
-line-height: 1.07;
 background-color: #2e2f42;
-width: 1440px;
-height: 600px;
-padding-right: 472px;
-padding-left: 472px;
-box-sizing: border-box;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
     
 .box {padding: 120px 0}
@@ -142,14 +136,14 @@ box-sizing: border-box;
 }
     .hero-title {
     font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-    margin: 0 auto;
-    max-width: 496px;
-    padding-bottom: 48px;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+        max-width: 496px;
+        margin: 0 auto;
+        margin-bottom: 48px;
 
 }
     
