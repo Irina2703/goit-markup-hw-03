@@ -224,21 +224,15 @@ margin: 0 auto;
     .team-color{ 
         padding: 120px 0;
         background-color: #f4f4fd;}
-        width:calc((100% - 72px) / 4);
     .team {
         background-color: #ffffff;
         text-align: center;
         margin: 15px;
         width: calc((100% - 72px) / 4);
-        
         border-radius: 0px 0px 4px 4px;}
-    .team img {
-        width: 100%;
-        height: auto;}
+    
     .team-container {
         padding: 32px 0;
-        border-radius: 0px 0px 4px 4px;
-        
     }
      .our-team-h{
         font-family: "Roboto", sans-serif;
